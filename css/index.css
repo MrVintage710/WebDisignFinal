@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 80vw;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0px auto;
+}
+
+/* Hero */
+#hero {
+    background-image: url("../image/Cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Overlay */
+#overlay {
+    position: absolute;
+    top: 75vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 350px 1fr;
+}
+
+#overlay img {
+    width: 300px;
+    padding-left: 25px;
+    vertical-align: middle;
+}
+
+#logo-div * {
+    opacity: 1;
+}
+
+#logo-div {
+    background-color: darkgray;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+#nav-div {
+    display: inline-block;
+    background-color: lightgray;
+    opacity: 0.5;
+}
