@@ -43,7 +43,7 @@ body {
 }
 
 #background-checks .book {
-    margin-top: 5%;
+    margin-top: 30%;
 }
 
 .book {
@@ -52,6 +52,7 @@ body {
     color: white;
     width: 40%;
     height: 10%;
+    margin-top: 30%;
     margin-left: 30%;
     border-radius: 5px;
     outline: 0;
