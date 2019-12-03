@@ -64,16 +64,18 @@ body {
     list-style: none;
     position: relative;
     height: 66%;
-    top: 14%;    
+    top: 40%;    
     margin: 0px;
     vertical-align: middle;
-    padding-left: 10px ;
+    padding-left: 20px ;
 }
 
 #nav-div ul li {
     color: #D72521;
     font-family: 'Roboto', sans-serif;
     font-size: large;
+    float: left;
+    padding-right: 5vw;
 }
 
 #nav-div ul li:hover {
