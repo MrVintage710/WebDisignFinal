@@ -4,6 +4,9 @@
 /* 'Roboto', sans-serif; */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+/* 'Fira Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
 body {
     margin: 0px;
     overflow-x: hidden;
@@ -23,6 +26,7 @@ body {
 
 .container h1 {
     font-size: 3em;
+    text-align: center;
 }
 
 /* Hero */
@@ -39,16 +43,20 @@ body {
 #hero-content{
     position: relative;
     box-sizing: border-box;
+    top: 25vh;
+    margin-left: 7.5vw;
 }
 
 #hero-content p {
     margin: 0px;
-    font-size: 4em;
-    font-family: sans-serif;
+    font-size: 5em;
+    font-family: 'Fira Sans', sans-serif;
     color: lightgray;
 }
 
-
+#hero-content-l2 {
+    padding-left: 70px;
+}
 
 /* Overlay */
 #overlay {
@@ -100,7 +108,7 @@ body {
     padding-right: 5vw;
 }
 
-#nav-div ul li:hover {
+#nav-div ul li a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -108,11 +116,11 @@ body {
 a.nostyle:link {
     text-decoration: inherit;
     color: inherit;
-    cursor: auto;
+    cursor: pointer;
 }
 
 a.nostyle:visited {
     text-decoration: inherit;
     color: inherit;
-    cursor: auto;
+    cursor: pointer;
 }
