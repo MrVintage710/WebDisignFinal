@@ -1,16 +1,28 @@
+/* Red: #b22222 */
+/* Brand Red: #D72521 */
+
 /* 'Roboto', sans-serif; */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body {
     margin: 0px;
+    overflow-x: hidden;
 }
 
 .container {
     width: 80vw;
-    max-width: 1000px;
+    max-width: 950px;
     min-width: 300px;
     margin: 0px auto;
     box-sizing: border-box;
+}
+
+.container p {
+    font-size: 1.1em;
+}
+
+.container h1 {
+    font-size: 3em;
 }
 
 /* Hero */
@@ -25,8 +37,18 @@ body {
 
 /* Hero Content */
 #hero-content{
-    
+    position: relative;
+    box-sizing: border-box;
 }
+
+#hero-content p {
+    margin: 0px;
+    font-size: 4em;
+    font-family: sans-serif;
+    color: lightgray;
+}
+
+
 
 /* Overlay */
 #overlay {
@@ -71,7 +93,7 @@ body {
 }
 
 #nav-div ul li {
-    color: #D72521;
+    color: #b22222;
     font-family: 'Roboto', sans-serif;
     font-size: large;
     float: left;
@@ -81,4 +103,16 @@ body {
 #nav-div ul li:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
 }
