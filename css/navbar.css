@@ -1,0 +1,60 @@
+/* Main Navbar Rules */
+
+/* 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+#navbar {
+    height: 55px;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 60px 1fr 1fr 1fr;
+}
+
+#logo-div {
+    background-color: gray;
+}
+
+#logo-div img {
+    width: 50px;
+    margin: 5px;
+}
+
+.nav-target {
+    background-color: lightgrey;
+    color: #b22222;
+    text-align: center;
+
+    font-family:'Roboto', sans-serif;
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.nav-target a{
+    margin: 0px auto;
+    font-size: 1.3em;
+    cursor: pointer;
+
+    position: relative;
+    top: 25%;
+}
+
+.nav-target a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-target.selected {
+    color: #D72521;
+    background-color: darkgrey;
+}

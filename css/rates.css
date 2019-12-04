@@ -6,13 +6,20 @@ h1, h2, .book{
 
 .top-content {
     width: 70%;
-    margin-left: 5%;
+    margin-left: 10%;
+    background-color: rgba(211, 211, 211, 0.5);
+    border-radius: 0px 20px;
+}
+
+.top-content > * {
+    margin-top: 5%;
+    margin-right: 5%;
 }
 
 body {
     font-family: 'Lato', sans-serif;
     margin-bottom: 5%;
-    word-break: break-all;
+    overflow: hidden;
 }
 
 #packages > * {
@@ -20,39 +27,52 @@ body {
 }
 
 #packages {
-    display: inline-flex;
-    height: 500px;
+    display: flex;
+    height: 74vh;
+    min-height: 500px;
 }
 
 #background-checks {
-    background-color: lightgrey;
+    background: url(./1.jpg);
+    background-repeat: no-repeat;
+    background-position: 30%, 25%;
+    background-size: cover;
+    background-color: darkgrey;
+    background-blend-mode: multiply;
     width: 30%;
     border-radius: 0px 20px;
 }
 
 #investigations {
+    background: url(./3.jpg);
+    background-repeat: no-repeat;
+    background-position: 30%, 25%;
+    background-size: cover;
     background-color: darkgrey;
+    background-blend-mode: multiply;
     width: 30%;
     border-radius: 0px 20px;
 }
 
 #surveillance {
-    background-color: grey;
+    background: url(./2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%, 25%;
+    background-size: cover;
+    background-color: darkgrey;
+    background-blend-mode: multiply;
     width: 30%;
     border-radius: 0px 20px;
 }
 
-#background-checks .book {
-    margin-top: 30%;
-}
 
 .book {
     font-size: 20px;
-    background: #D82826;
+    background: #B22222;
     color: white;
     width: 40%;
     height: 10%;
-    margin-top: 30%;
+    margin-top: 10%;
     margin-left: 30%;
     border-radius: 5px;
     outline: 0;
@@ -67,21 +87,35 @@ body {
 }
 
 .footer {
-    background-color: #D82826;
+    background-color: black;
     color: white;
-    height: 300px;
+    height: 200px;
+    width: 100%;
 }
 
 #contact-content {
     float: right;
-    margin-right: 2%;
+    background-color: #B22222;
+    padding-right: 20%;
+    padding-bottom: 3.2%;
 }
 
 #contact-content li {
-    color: black;
+    color: white;
+    list-style-type: none;
+}
+
+.footer img {
+    transform:translate(-80%, -10%);
+    background-color: white;
+    height: 90%;
 }
 
 p {
-    margin-left: 2%;
-       
+    float: left;
+    transform:translate(15%, 800%);
+}
+
+#tag {
+    transform:translate(5%, -400%);
 }
