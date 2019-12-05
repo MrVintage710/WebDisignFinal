@@ -39,6 +39,7 @@ body {
     background-color: lightcoral;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 .profile .info-div h1 {
