@@ -4,11 +4,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 #navbar {
-    height: 55px;
+    position: fixed;
     width: 100vw;
 
     display: grid;
     grid-template-columns: 60px 1fr 1fr 1fr;
+    z-index: 100;
 }
 
 #logo-div {

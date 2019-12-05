@@ -1,12 +1,6 @@
 /* Red: #b22222 */
 /* Brand Red: #D72521 */
 
-/* 'Roboto', sans-serif; */
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
-/* 'Fira Sans', sans-serif; */
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
-
 body {
     overflow-x: hidden;
 }
@@ -15,7 +9,7 @@ body {
     width: 80vw;
     max-width: 950px;
     min-width: 300px;
-    margin: 0px auto;
+    margin: 10px auto;
     box-sizing: border-box;
 }
 
